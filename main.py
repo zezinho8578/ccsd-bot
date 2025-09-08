@@ -21,6 +21,7 @@ async def on_ready():
 @bot.slash_command(
     name="call",
     description="Generate a new dispatch call embed."
+    guild_ids=[1403411414361837588] 
 )
 async def create_call(
     ctx: discord.ApplicationContext,
